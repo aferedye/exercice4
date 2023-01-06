@@ -34,4 +34,18 @@ git checkout C4
 git checkout bugFix^  
   
 3 :  
-Je passe à l'UML
+git branch -f bugFix HEAD~2  
+git checkout HEAD^  
+git branch -f main C6  
+  
+4 :  
+git checkout local  
+git reset C1  
+git checkout pushed  
+git revert C2  
+  
+Déplacer le travail :  
+  
+1 :  
+
+
